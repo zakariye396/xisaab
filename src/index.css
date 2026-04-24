@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #393a3d;
+}
+
+.banner-stripes-green {
+  background: repeating-linear-gradient(45deg, #2ca01c, #2ca01c 3px, transparent 3px, transparent 6px);
+}
+
+.banner-stripes-teal {
+  background: repeating-linear-gradient(45deg, #0097a7, #0097a7 3px, transparent 3px, transparent 6px);
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #393a3d;
+}
+
+.banner-stripes-green {
+  background: repeating-linear-gradient(45deg, #2ca01c, #2ca01c 3px, transparent 3px, transparent 6px);
+}
+
+.banner-stripes-teal {
+  background: repeating-linear-gradient(45deg, #0097a7, #0097a7 3px, transparent 3px, transparent 6px);
+}
